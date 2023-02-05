@@ -70,10 +70,10 @@ button:active {
 
 .result-camp {
   border: 1px solid #1c1c1c;
-  padding: 15px;
+  padding: 1em;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.5em;
   text-align: center;
   align-items: center;
   justify-content: center;
