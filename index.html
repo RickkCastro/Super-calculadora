@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Super Calculadora</title>
+  </head>
+  <body>
+    <header>
+      <h1>Super Calculadora</h1>
+      <div class="input-div">
+        <span class="input-text" id>Primeiro número (A)</span>
+        <input type="number" name="" id="input-numA" />
+        <span class="input-text">Segundo número (B)</span>
+        <input type="number" name="" id="input-numB" />
+        <button id="calcular-button">Calcular</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="results-div">
+        <div class="result-camp">
+          <p class="result-title">Soma</p>
+          <p class="result-text" id="soma-result">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Subtração A - B</p>
+          <p class="result-text" id="sub-result-a">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Subtração B - A</p>
+          <p class="result-text" id="sub-result-b">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Multiplicação</p>
+          <p class="result-text" id="multi-result">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Divisão A/B</p>
+          <p class="result-text" id="divisao-result-a">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Divisão B/A</p>
+          <p class="result-text" id="divisao-result-b">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Potência de A na base B</p>
+          <p class="result-text" id="poten-result-a">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Potência de B na base A</p>
+          <p class="result-text" id="poten-result-b">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Raiz quadrada de A</p>
+          <p class="result-text" id="raiz-result-a">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Raiz quadrada de B</p>
+          <p class="result-text" id="raiz-result-b">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Fatorial de A</p>
+          <p class="result-text" id="fatorial-result-a">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Fatorial de B</p>
+          <p class="result-text" id="fatorial-result-b">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Porcentagem de A em relação a B</p>
+          <p class="result-text" id="porcen-result-a">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Porcentagem de B em relação a A</p>
+          <p class="result-text" id="porcen-result-b">...</p>
+        </div>
+
+        <div class="result-camp">
+          <p class="result-title">Média</p>
+          <p class="result-text" id="media-result">...</p>
+        </div>
+      </div>
+    </main>
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
