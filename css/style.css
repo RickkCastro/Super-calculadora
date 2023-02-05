@@ -65,15 +65,15 @@ button:active {
 
 .results-div {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
 }
 
 .result-camp {
   border: 1px solid #1c1c1c;
-  padding: 1em;
+  padding: 15px;
+  gap: 10px;
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
   text-align: center;
   align-items: center;
   justify-content: center;
